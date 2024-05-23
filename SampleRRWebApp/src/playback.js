@@ -1,4 +1,4 @@
-import { Replayer } from 'rrweb-player';
+import Replayer from "rrweb-player"
 
 document.addEventListener('DOMContentLoaded', () => {
   const events = JSON.parse(localStorage.getItem('recordedEvents') || '[]');
