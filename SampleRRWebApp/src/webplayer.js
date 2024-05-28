@@ -4,7 +4,7 @@ import rrwebPlayer from 'rrweb-player';
     const replayer = new rrwebPlayer({
       target: document.body, // Specify the target element for the player
       props: {
-        events,
+        events: [],
         width: 1024, // Set playback width
         height: 768, // Set playback height
       },
